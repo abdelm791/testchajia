@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Test</title>
+  <style>
+   body { background: rgba(16, 16, 68, 0.397) !important; }
+
+    div.modal-header {
+  background-color: rgb(15, 18, 194);
+  height: 200px;
+}
+input:not(:placeholder-shown) {
+   background-color:  rgb(231, 225, 225)!important;
+   box-sizing: border-box;
+   height: 42px;
+   
+}
+
+
+input:placeholder-shown {
+   background-color:  rgb(231, 225, 225)!important;
+   box-sizing: border-box;
+   height: 42px;
+}
+
+.has-search .form-control  {
+  padding-left: 2.375rem;
+  vertical-align: middle;
+  
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  vertical-align: middle;
+  
+}
+
+  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container py-5 px-5" >
+        <div class="list-group">
+             <a href="#" class="list-group-item  d-flex justify-content-between align-items-center " data-toggle="modal" data-target="#operator" >
+                
+                <h6 class="font-weight-bolder">
+                <img src="icons/operator.png" class="img-circle  " alt="operator" width="80" height="80"> 
+                 Agent 1<span class="font-weight-light"> Operator </span></h6> 
+                
+                   <img src="icons/green.png" class="img-circle float-right" alt="green" width="12" height="12"  > 
+                
+               </a>
+<!-- Modal agent 1 -->
+<div class="modal fade" id="operator" tabindex="-1" role="dialog" aria-labelledby="op1"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header " >
+      
+        <h5 class="font-weight-bolder w-100 text-center" style="color:beige">
+     <div > <img src="icons/operator.png" class="img-circle " alt="operator" width="100" height="100"> </div>
+     <div > Agent 1</div>
+     <div ><span class="font-weight-light">Operator</span></div>
+    </h5> 
+
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color:white">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      
+      </div>
+      <div class="modal-body" style="color: rgb(20, 20, 139);">
+        <h4 style="font-weight: lighter; height: 50px;">Skills</h4>
+        <div style="margin-left: 20px;font-weight: bold;">
+        <div style="height: 60px;  "> <img src="icons/cleanwork.png" class="img-circle  " alt="cleanwork" width="20" height="20">  Cleanworks Level 2</div>
+        <div style="height: 60px;  " ><img src="icons/ropeworks.png" class="img-circle  " alt="ropeworks" width="20" height="20">  Ropeworks Levels 1</div>
+        <div style="height: 60px;  "><img src="icons/apm.png" class="img-circle  " alt="apm" width="20" height="20">   APM TERMINALS TC1</div>
+      </div>
+    </div>
+      
+    </div>
+  </div>
+</div>
+              <a href="#" class="list-group-item d-flex justify-content-between align-items-center "data-toggle="modal" data-target="#teamleader" >
+                
+                  <h6 class="font-weight-bolder"><img src="icons/operator.png" class="img-circle" alt="operator" width="80" height="80">
+                  Agent 2 <span class="font-weight-light">Team leader</span></h6> 
+                    <img src="icons/red.png" class="img-circle  float-right" alt="red" width="12" height="12"  > 
+                </a>
+
+<!-- Modal agent 2 -->
+<div class="modal fade" id="teamleader" tabindex="-1" role="dialog" aria-labelledby="op2"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header " >
+      
+        <h5 class="font-weight-bolder w-100 text-center" style="color:beige">
+     <div > <img src="icons/operator.png" class="img-circle " alt="operator" width="100" height="100"> </div>
+     <div > Agent 2</div>
+     <div ><span class="font-weight-light">Team leader</span></div>
+    </h5> 
+
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color:white">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      
+      </div>
+      <div class="modal-body" style="color: rgb(20, 20, 139);">
+          <h4 style="font-weight: lighter; height: 50px;">Skills</h4>
+          <div style="margin-left: 20px;font-weight: bold;">
+          <div style="height: 60px;  "> <img src="icons/cleanwork.png" class="img-circle  " alt="cleanwork" width="20" height="20">  Cleanworks Level 2</div>
+          <div style="height: 60px;  " ><img src="icons/ropeworks.png" class="img-circle  " alt="ropeworks" width="20" height="20">  Ropeworks Levels 1</div>
+          <div style="height: 60px;  "><img src="icons/apm.png" class="img-circle  " alt="apm" width="20" height="20">   APM TERMINALS TC1</div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+        </div>
+        
+    <a href="#" class="list-group-item disabled" style="height: 200px; "></a>   
+                    
+        
+         
+      <div class="form-group has-search  " >
+                            <span class="fa fa-search form-control-feedback text-center" ></span>
+                            <input type="text" class="form-control"  placeholder="Search contacts..." >
+      </div>
+        
+      
+    </div>
+
+    
+</body>
+</html>
